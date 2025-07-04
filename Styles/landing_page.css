@@ -11,29 +11,44 @@
   display: flex;
   align-items: center;
 }
-.youtubeHeaderContainer {
+.headerContainer {
   background-color: #5759e9;
-  width: 97%;
+  width: 97.5%;
   height: 6%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0 24px;
 }
 .startContainer {
   background-color: #f80505;
   width: 10%;
   height: 100%;
-  
 }
 .searchBarContainer {
   background-color: #02fff2;
   width: 60%;
   height: 100%;
-  
 }
 .buttonsContainer {
   background-color: #ff7300;
   width: 15%;
   height: 100%;
- 
+}
+
+.filterContainer {
+  background-color: #d2fd37;
+  width: 100%;
+  height: 6%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.filterButton {
+  background-color: #00ff22;
+  width: 5%;
+  height: 80%;
+  padding: 0 24px;
+  margin: 12px;
 }
