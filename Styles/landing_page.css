@@ -36,14 +36,14 @@
   height: 100%;
 }
 
-.navigatorAndFilterContainer{
+.navigatorAndFilterAndContentContainer{
   height: 100%;
   width: 100%;
   background-color:#18ffff;
   display: flex;
   flex-direction: row;
 }
-/*Navigator needs new father for content and him*/
+
 .navigatorContainer{
 width: 4%;
 height: 100%;
@@ -58,6 +58,14 @@ flex-direction: column;
   height: 5%;
   padding: 0 24px;
   margin: 12px;
+}
+
+.filterAndContentContainer{
+width: 96%;
+height: 100%;
+background-color: aliceblue;
+display: flex;
+flex-direction: column;
 }
 
 .filterContainer {
@@ -76,3 +84,9 @@ flex-direction: column;
   padding: 0 24px;
   margin: 12px;
 }
+
+
+
+
+
+
