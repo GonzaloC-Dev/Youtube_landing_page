@@ -4,7 +4,7 @@
 }
 
 .bodyContainer {
-  background-color: #c96060;
+  /*background-color: #c96060;*/
   width: 100vw;
   height: 100vh;
   flex-direction: column;
@@ -12,7 +12,7 @@
   align-items: start;
 }
 .headerContainer {
-  background-color: #5759e9;
+  /*background-color: #5759e9;*/
   width: 97.5%;
   height: 6%;
   display: flex;
@@ -21,17 +21,17 @@
   padding: 0 24px;
 }
 .startContainer {
-  background-color: #f80505;
+  /*background-color: #f80505;*/
   width: 10%;
   height: 100%;
 }
 .searchBarContainer {
-  background-color: #02fff2;
+  /*background-color: #02fff2;*/
   width: 60%;
   height: 100%;
 }
 .buttonsContainer {
-  background-color: #ff7300;
+  /*background-color: #ff7300;*/
   width: 15%;
   height: 100%;
 }
@@ -39,7 +39,7 @@
 .navigatorAndFilterAndContentContainer{
   height: 100%;
   width: 100%;
-  background-color:#18ffff;
+  /*background-color:#18ffff;*/
   display: flex;
   flex-direction: row;
 }
@@ -47,13 +47,13 @@
 .navigatorContainer{
 width: 4%;
 height: 100%;
-background-color:#5759e9;
+/*background-color:#5759e9;*/
 display: flex;
 flex-direction: column;
 }
 
 .navigatorButton{
-  background-color: #f80505;
+  /*background-color: #f80505;*/
   width: 5%;
   height: 5%;
   padding: 0 24px;
@@ -63,13 +63,13 @@ flex-direction: column;
 .filterAndContentContainer{
 width: 96%;
 height: 100%;
-background-color: aliceblue;
+/*background-color: aliceblue;*/
 display: flex;
 flex-direction: column;
 }
 
 .filterContainer {
-  background-color: #d2fd37;
+  /*background-color: #d2fd37;*/
   width: 100%;
   height: 6%;
   display: flex;
@@ -78,7 +78,7 @@ flex-direction: column;
   align-items: center;
 }
 .filterButton {
-  background-color: #00ff22;
+  /*background-color: #00ff22;*/
   width: 5%;
   height: 80%;
   padding: 0 24px;
@@ -88,7 +88,7 @@ flex-direction: column;
 .contentContainer{
   width: 100%;
   height: 94%;
-  background-color:#6eda85;
+  /*background-color:#6eda85;*/
   display: flex;
   flex-wrap: wrap;
   padding-top: 1%;
@@ -106,60 +106,72 @@ flex-direction: column;
 width: 100%;
 height: 80%;
 border-radius: 4%;
-background-color: #5759e9;
+/*background-color: #5759e9;*/
 }
 
 .detailContent{
 width: 100%;
 height: 20%;
-background-color: #ff7300;
+/*background-color: #ff7300;*/
 display: flex;
 flex-direction: row;
 }
+
+/*For the future add: .detailContentAdd and .detailContentMix*/
 
 /*1st element*/
 .iconChannel{
 width: 10%;
 height: 65%;
-background-color: #ff00f2;
+border-radius: 50%;
+/*background-color: #f55fed;*/
 }
 
 /*2nd elements*/
 .textsContainer{
 width: 85%;
 height: 100%;
-background-color: #648a82;
+/*background-color: #648a82;*/
 display: flex;
 flex-direction: column;
 }
 .titleText{
 width: 100%;
 height: 40%;
-background-color: #00f7ff;
+/*background-color: #00f7ff;*/
+display: flex;
+align-items: center;
+
 }
 .channelText{
 width: 80%;
 height: 20%;
-background-color: #00ff22;
+/*background-color: #00ff22;*/
 }
-.usersText{
+.visualizationsNumberAndUploadTimeText{
 width: 80%;
 height: 20%;
-background-color: #ffd102;
+/*background-color: #ffd102;*/
 }
+
+/*Depends on Video is in live*/
 .onLiveText{
 width: 80%;
 height: 20%;
-background-color: #ff5100;
+/*background-color: #ff5100;*/
 }
 
 /*3rd elements*/
 .moreDetails{
 width: 5%;
 height: 50%;
-background-color: #fccff9;
+/*background-color: #fccff9;*/
 }
 
+.moreDetailsButton{
+  width: 100%;
+  height: 100%;
+}
 
 
 
