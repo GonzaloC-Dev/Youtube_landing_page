@@ -12,7 +12,7 @@
   align-items: start;
 }
 .headerContainer {
-  /*background-color: #5759e9;*/
+  background-color: #5759e9;
   width: 97.5%;
   height: 6%;
   display: flex;
@@ -20,18 +20,21 @@
   justify-content: space-between;
   padding: 0 24px;
 }
-.startContainer {
-  /*background-color: #f80505;*/
+.menuAndLogoContainer {
+  background-color: #f80505;
   width: 10%;
   height: 100%;
+  display: flex;
+  align-items: center;
 }
+
 .searchBarContainer {
-  /*background-color: #02fff2;*/
+  background-color: #02fff2;
   width: 60%;
   height: 100%;
 }
 .buttonsContainer {
-  /*background-color: #ff7300;*/
+  background-color: #ff7300;
   width: 15%;
   height: 100%;
 }
